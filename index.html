@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <style>
+        body {
+            color: #eeeeeeee;
+            background-image:url(imgs/desktop.png);
+            background-size: cover;
+        }
+        p{
+            line-height: 1.5;
+        }
+        article{
+            padding: 0px 0px 10px 10px;
+        }
+        td{
+            padding: 0px 0px 8px 12px;
+            align-content: start;
+        }
+        textarea{
+            resize: horizontal;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Axel López</h1>
+        <p>Estudiante de Ingeniería | Desarrollador</p>
+        <p>Java | C# | Python | SQL | HTML - CSS</p>
+    </header>
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#educacion">Educación</a>
+        <a href="#practicas">Prácticas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <article>
+                <p>21 años. Estudiante de Ingeniería en Computación</p>
+                <p>Pasatiempos: Ritmos Latinos, Reinterpretación Musical, Natación, Repostería, Animación Digital, Programación</p>
+            </article>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <article>
+                <p>Lógica de Programación Estructurada</p>
+                <p>Programación Orientada a Objetos</p>
+                <p>Desarrollo de Interfaces GUI | CLI</p>
+                <P>Diseño de Bases de Datos</P>
+                <p>Control de Versiones</p>
+            </article>
+        </section>
+        <section id="educacion">
+            <h2>Educación</h2>
+            <table>
+                <tr>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaqH6hf9F_tFVroGgJFvy5AcpmLiTC40c_yA&s" alt="Dev.f" width="140px"></td>
+                    <td><article>
+                        <p>Master en Front-end</p>
+                        <p>Dev.F</p>
+                        <p>Noviembre 2024 - Presente</p>
+                    </article></td>
+                    <td><img src="./imgs/uaemexvch.png" alt="UAEMEX CUVCH" width="150px"></td>
+                    <td><article>
+                        <p>Licenciatura de Ingeniería en Computación</p>
+                        <p>Universidad Autónoma del Estado de México</p>
+                        <p>Agosto 2023 - Presente</p>
+                    </article></td>
+                    <td><img src="./imgs/aprendeorg.jpg" alt="Capacitate para el Empleo" width="140px"></td>
+                    <td><article>
+                        <p>Desarrollo de Sitios Web y Aplicaciones Moviles</p>
+                        <p>Capacitate para el Empleo - Fundación Carlos Slim</p>
+                        <p>Enero 2021 - Presente</p>
+                        <p><a href="https://capacitateparaelempleo.org/verifica/1cc1def0-82a2-4bbb-8948-216105d89d80/909cf18c-cef7-4347-ba40-c52a4d60bb5b">Progrso Registrado</a></p>
+                    </article></td>
+                </tr>
+            </table>
+        </section>
+        <section id="practicas">
+            <h2>Praticas</h2>
+            <table>
+                <tr>
+                    <td><img src="./imgs/practicaGUI.png" alt="Practica en Interfaz GUI, Algoritmo de Euclides" width="675px"></td>
+                    <td>
+                        <article>
+                            <h3>Interfaz GUI de C# para calculos de MCD usando Algoritmo de Euclides</h3>
+                            <p>El programa desarrolla el procedimiento para obtener el <i>máximo común divisor</i> de dos números naturales definidos por el usuario aplicando
+                                el Algoritmo de Euclides Principal, o el extendido.
+                                <details>
+                                    <summary>Detalles del programa</summary>
+                                    <p>Se desarrolló a partir de una plantilla de <i>form</i> para C# en el IDE de Visual Studio 2022. Se utilizaron los objetos propios 
+                                    de la clase form : NumericUpDown para definir solo los números permitidos de un intervalo, Button para seleccionar el método tradicional 
+                                    que busca exclusivamente el MCD de los números definidos por el usuario, o el metodo extendido que satisfaga la ecuación diofántica 
+                                    <i>ax + by = MCD(a, b)</i> en donde (a, b) son definidos por el usuario; el RichTextBox donde se arrojan los resultados; NumericUpDown se encarga
+                                    de validar los números a definir por el usuario en un intervalo establecido, y los labels que visualizan la fecha y hora con una función de
+                                    librerías.</p>
+                                </details>
+                            </p>
+                        </article>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="./imgs/practicaweb.png" alt="Practica de primer sitio web en GitHub" width="675px"></td>
+                    <td>
+                        <article>
+                            <h3>Página Web HTML con control de versiones Git y GitHub</h3>
+                            <p>Una página web estática llevando el desarrollo de un control de versiones con Git sobre el proyecto.
+                                <details>
+                                    <summary>Detalles de la Página Web</summary>
+                                    <p>Posteriormente de haber creado el último commit esperado
+                                        y sin presentar cambios pendientes, se empuja el proyecto a un repositorio remoto de GitHub aplicando el comando <i>push</i>, posteriormente utilizando la
+                                        configuración de GitHub Pages se crea la página web publicamente y accesible desde cualquier navegador con acceso a internet.
+                                    <p><a href="https://axolotl-one.github.io/html01/index.html">Link de página web en GitHub Pages</a></p>
+                                    <p><a href="https://github.com/axolotl-one/html01">Link al repositorio de GitHub público</a></p>
+                                </details>
+                            </p>
+                        </article>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <ul>
+                <li><a href="mailto:xozcatl@gmail.com">E-mail</a></li>
+                <li><a href="">GitHub</a></li>
+            </ul>
+
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td><input type="text" id="nombre" name="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="E-mail">Correo Electronico:</label></td>
+                        <td><input type="email" id="E-mail" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mensaje">Mensaje:</label></td>
+                        <td><textarea name="mensaje" id="mensaje" rows="3" required maxlength="15"></textarea></td>
+                    </tr>
+                    <tr><td></td><td><button type="submit">Enviar</button></td></tr>
+                </table>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Axel López (axolotl-one). Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
